@@ -1,0 +1,43 @@
+import mongoose from 'mongoose';
+
+const UserSchema = mongoose.Schema(
+    {
+        email:{
+            type: String,
+            required:true
+        },
+        username:{
+            type: String,
+            required:true
+        },
+        password:{
+            type: String,
+            required:true
+        },
+        firstname:{
+            type: String,
+            required:true
+        },
+        lastname:{
+            type: String,
+            required:true
+        },
+        isAdmin:{
+            type:Boolean,
+            default:false
+        },
+        profilePicture: String,
+        coverPicture: String,
+        livesin:String,
+        relationship:String,
+        gender:String,
+        worksat:String,
+        education:String,
+        followers:[],
+        following:[]
+    },
+    {timestamps:true}
+)
+
+const UserModel=mongoose.model("Users",UserSchema);
+export default UserModel;

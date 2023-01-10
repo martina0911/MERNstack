@@ -1,0 +1,277 @@
+body{
+    background: lavenderblush;
+    padding: 20px;
+}
+.Home{
+    position: relative;
+    display: flex;
+    grid-template-columns: 18rem auto 20rem;
+    gap: 1rem;
+}
+.Rightside{
+    /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,rgba(0, 0, 0, 0.22) 0px 15px 12px;  */
+    border-radius: 15px;
+    background: white;
+    height: 500px;
+    width: 300px;
+    margin-right: 50px;
+}
+.Profile{
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+    color: black;
+    position: relative;
+    display: inline-block;    
+    padding: 12px;
+    /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,rgba(0, 0, 0, 0.22) 0px 15px 12px;  */
+    border-radius: 15px;
+    background: white;
+    width: 300px;
+    height: 420px;
+    margin-left: 80px;
+}
+.Posts{
+    position: relative;    
+    padding: 10px;
+    height: fit-content;
+    width: 550px;
+    margin-left: 0;
+    background: transparent;
+    margin-right: 0;
+    display: inline-block;
+}
+
+.Profile1{
+    border-radius: 15px;
+    border: 1px solid lightslategray;
+    width: 280px;
+}
+.ProfilePic{position: relative;}
+.Cover-Pic{
+    height: 100px;
+    width: 280px;
+    position: relative;
+    display: inline-block;
+    border-radius: 15px;
+}
+.Profile-Pic{
+    position: absolute;
+    left: 34%; right: 34%;
+    bottom:-2rem;
+    width: 75px;
+    height: 75px;
+    border: 2px solid lightslategrey;
+    border-radius: 50%;
+    align-items: center;
+}
+.LogoSearch{position: relative;
+    width: 280px;
+    height: fit-content;
+    display: flex; 
+    align-items: center;
+    margin-bottom: 20px;
+}
+.name{
+    text-align: center; 
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.followers,.following,.postsnum{
+    display: inline-block;
+    height: 75px;
+    width: 75px;
+    border-top: 0.5px solid lightslategrey;  
+    border-bottom: 0.5px solid lightslategrey;
+    justify-content: center;
+    align-items: center;
+    text-align: center;  
+}
+.followers,.following{
+    border-right: 0.5px solid lightslategrey;
+}
+.follow{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.followers p,.following p,.postsnum p{
+    font-size: 15px;
+    margin: 0;
+    color: gray;
+}
+.followers h4,.following h4,.postsnum h4{margin-bottom:2px;}
+.viewProfile{
+    text-align: center;
+}
+.viewProfile a{
+    text-decoration: none;
+    color: blueviolet;
+}
+.s-icon,.explore{
+    display: inline-block;
+}
+.explore{padding: 4px;}
+.diamond,.Search{
+    display: inline-block;
+}
+.Search{
+    align-items: center;
+    display: flex;
+    margin-left: 5px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: lightgrey;
+}
+.Search>input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.LogoSearch ion-icon{
+    margin: 10px;
+    font-size: 30px;
+    color: blueviolet;
+}
+.write-something{
+    display: flex;
+    padding: 20px;
+    /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,rgba(0, 0, 0, 0.22) 0px 15px 12px;  */
+    border-radius: 15px;
+    background: white;
+    width: 100%;
+}
+#slika{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border: 2px solid lightslategrey;
+    border-radius: 50%;
+    
+}
+.slika{margin-left: 15px;}
+.nestoo{
+    margin-left: 25px;
+    width: 100%;
+    height: 70px;
+}
+.nestoo>input{
+    width: 90%;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: lightgray;
+    outline:  none;
+    border: none;
+    margin-bottom: 5px;
+}
+.nestoo ion-icon{
+    font-size: 30px;
+    margin-left: 30px;
+}
+.nestoo ion-icon:nth-child(2){
+    color:lightsalmon;
+}
+.nestoo ion-icon:nth-child(3){
+    color:rosybrown;
+    margin-left: 60px;
+}
+.nestoo ion-icon:nth-child(4){
+    color:palevioletred;
+    margin-left: 60px;
+}
+.nestoo ion-icon:nth-child(5){
+    color:blueviolet;
+    margin-left: 60px;
+}
+.nestoo ion-icon:nth-child(2):hover{
+    color:coral;
+    cursor: pointer;
+}
+.nestoo ion-icon:nth-child(3):hover{
+    color:peru;
+    cursor: pointer;
+}
+.nestoo ion-icon:nth-child(4):hover{
+    color:mediumorchid;
+    cursor: pointer;
+}
+.nestoo ion-icon:nth-child(5):hover{
+    color:darkslateblue;
+    cursor: pointer;
+}
+.btn{
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 8px;
+    float: right;
+    margin-right: 8%;
+    margin-top: 2px;
+}
+.btn:hover{
+    background-color:darkslateblue;
+    cursor: pointer;
+}
+.btn-follow{
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 8px;
+    float: right;
+    margin-top: 2px;height: 30px;
+}
+.btn-follow:hover{
+    background-color:darkslateblue;
+    cursor: pointer;
+}
+.person{
+    display: flex;    
+    width: 100%;
+    height: 75px;
+    align-items: center;
+    margin-bottom: 2px;
+}
+.person h4{margin:0;}
+.person p{margin:0;}
+.personsname{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.side{
+    width: 100%;
+    height: fit-content;
+    display: block;
+    align-items: center;
+    margin-top: 5px;
+}
+.hide{display: none;}
+.post{
+    padding: 20px;
+    /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,rgba(0, 0, 0, 0.22) 0px 15px 12px;  */
+    border-radius: 15px;
+    background: white;
+    width: 100%;
+    margin-top: 30px;
+}
+.post ion-icon{
+    margin: 10px;
+    font-size: 30px;
+    color: blueviolet;
+}
+.user-description{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.user-description h4{margin-right: 10px;}
+object{
+    height: 350px;
+    width: 100%;
+}
+Nav{display: block;}

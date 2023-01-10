@@ -1,0 +1,47 @@
+body{
+    background: lavenderblush;
+    padding: 20px;
+}
+.Register{
+    padding: 20px;
+    position: relative;
+    margin:0 auto;
+    width: 50%;
+    height: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,rgba(0, 0, 0, 0.22) 0px 15px 12px; 
+    border-radius: 20px;
+    background: white;
+}
+#email,#username{
+    background-color: lightgray;
+    padding: 15px;
+    width: 90%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+}
+#first-name,#last-name, #password, #confirm-password{
+    background-color: lightgray;
+    padding: 15px;
+    width: 41%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+#submit{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    width: 90px;
+}
+.register-form{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

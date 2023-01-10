@@ -1,0 +1,97 @@
+.write-somethingg{
+    display: flex;
+    padding: 20px;
+    /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,rgba(0, 0, 0, 0.22) 0px 15px 12px;  */
+    border-radius: 15px;
+    background: white;
+    width: 90%;
+}
+#slikaaa{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border: 2px solid lightslategrey;
+    border-radius: 50%;
+    
+}
+.slikaaa{margin-left: 15px;}
+.nestoou{
+    margin-left: 25px;
+    width: 100%;
+    height: 70px;
+}
+.nestoou>input{
+    width: 90%;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: lightgray;
+    outline:  none;
+    border: none;
+    margin-bottom: 5px;
+}
+.nestoou ion-icon{
+    font-size: 30px;
+    margin-left: 30px;
+}
+.nestoou ion-icon:nth-child(2){
+    color:lightsalmon;
+}
+.nestoou ion-icon:nth-child(3){
+    color:rosybrown;
+    margin-left: 30px;
+}
+.nestoou ion-icon:nth-child(4){
+    color:palevioletred;
+    margin-left: 30px;
+}
+.nestoou ion-icon:nth-child(5){
+    color:blueviolet;
+    margin-left: 30px;
+}
+.nestoou ion-icon:nth-child(2):hover{
+    color:coral;
+    cursor: pointer;
+}
+.nestoou ion-icon:nth-child(3):hover{
+    color:peru;
+    cursor: pointer;
+}
+.nestoou ion-icon:nth-child(4):hover{
+    color:mediumorchid;
+    cursor: pointer;
+}
+.nestoou ion-icon:nth-child(5):hover{
+    color:darkslateblue;
+    cursor: pointer;
+}
+.btn0{
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 8px;
+    float: right;
+    margin-right: 8%;
+    margin-top: 2px;
+}
+.btn0:hover{
+    background-color:darkslateblue;
+    cursor: pointer;
+}
+
+.previewImage{
+    position: relative;
+}
+.previewImage svg{
+    position: absolute;
+    right:1rem;top:0.5rem;
+    cursor:pointer;
+}
+.previewImage img{
+    width:100%;
+    max-height: 20rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    
+}
